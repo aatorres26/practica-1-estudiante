@@ -75,11 +75,14 @@ public class Materia {
         for(Estudiante est:estudiantes){
             est.mostrarEstudiante();
         }
-    }
+        }else{
+        System.out.println("No hay estudiantes asignados");
+        } 
     }
     public void agregarEstudiante(){
           
         estudiantes.add(estudiante);
+}
 }
 
 
