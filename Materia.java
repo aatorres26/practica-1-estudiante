@@ -71,4 +71,8 @@ public class Materia {
     public void mostrar(){
         System.out.println("NRC: "+NRC+"\nNombre: "+nombre+"\nHoras de la materia: "+horas+"\nCarrera: "+carrera);
     }
+    public void agregarEstudiante(){
+          
+        estudiantes.add(estudiante);
 }
+
