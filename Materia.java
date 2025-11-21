@@ -70,9 +70,16 @@ public class Materia {
     
     public void mostrar(){
         System.out.println("NRC: "+NRC+"\nNombre: "+nombre+"\nHoras de la materia: "+horas+"\nCarrera: "+carrera);
+        if(estudiante.getNombre()!=null){
+        System.out.println("Estudiantes asignados: ");
+        for(Estudiante est:estudiantes){
+            est.mostrarEstudiante();
+        }
+    }
     }
     public void agregarEstudiante(){
           
         estudiantes.add(estudiante);
 }
+
 
