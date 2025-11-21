@@ -46,6 +46,11 @@ public class ProyectoProfesor {
                }else{
                    System.out.println("no se registro a ninguno profesor");
                }break;
+                    case 5:
+                   estudiante.registrarEstudiante();
+                           estudiante.pasado();break;
+               case 6:
+                   materia.agregarEstudiante();break;
                default:
                    continuar =false;
                    break;
@@ -54,3 +59,4 @@ public class ProyectoProfesor {
         }        
     
 }
+
