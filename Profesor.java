@@ -88,6 +88,7 @@ public class Profesor {
          }
      }
      public void agregarMateria(Materia materia){
-         
+         materia= new Materia();
      }
 }
+
